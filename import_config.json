@@ -1,0 +1,135 @@
+{
+    "connection": {
+        "host": "127.0.0.1",
+        "port": "7474",
+        "databaseName": "default_db",
+        "user": "default_user",
+        "password": ""
+    },
+    "schema": {
+        "graph": "medical",
+        "vertices": [
+            "一级科室",
+            "二级科室",
+            "其他",
+            "检查手段",
+            "治疗方案",
+            "生产商",
+            "疾病",
+            "症状",
+            "药物",
+            "食物",
+            "食谱"
+        ],
+        "edges": [
+            "好评药品",
+            "宜吃",
+            "属于",
+            "常用药品",
+            "并发症",
+            "忌吃",
+            "所属科室",
+            "推荐食谱",
+            "治疗方法",
+            "生产药品",
+            "表现症状",
+            "诊断检查"
+        ]
+    },
+    "vertices": [
+        {
+            "label_name": "一级科室",
+            "data_path": "/import/vertices/一级科室.csv"
+        },
+        {
+            "label_name": "二级科室",
+            "data_path": "/import/vertices/二级科室.csv"
+        },
+        {
+            "label_name": "其他",
+            "data_path": "/import/vertices/其他.csv"
+        },
+        {
+            "label_name": "检查手段",
+            "data_path": "/import/vertices/检查手段.csv"
+        },
+        {
+            "label_name": "治疗方案",
+            "data_path": "/import/vertices/治疗方案.csv"
+        },
+        {
+            "label_name": "生产商",
+            "data_path": "/import/vertices/生产商.csv"
+        },
+        {
+            "label_name": "疾病",
+            "data_path": "/import/vertices/疾病.csv"
+        },
+        {
+            "label_name": "症状",
+            "data_path": "/import/vertices/症状.csv"
+        },
+        {
+            "label_name": "药物",
+            "data_path": "/import/vertices/药物.csv"
+        },
+        {
+            "label_name": "食物",
+            "data_path": "/import/vertices/食物.csv"
+        },
+        {
+            "label_name": "食谱",
+            "data_path": "/import/vertices/食谱.csv"
+        }
+    ],
+    "edges": [
+        {
+            "label_name": "好评药品",
+            "data_path": "/import/edges/好评药品.csv"
+        },
+        {
+            "label_name": "宜吃",
+            "data_path": "/import/edges/宜吃.csv"
+        },
+        {
+            "label_name": "属于",
+            "data_path": "/import/edges/属于.csv"
+        },
+        {
+            "label_name": "常用药品",
+            "data_path": "/import/edges/常用药品.csv"
+        },
+        {
+            "label_name": "并发症",
+            "data_path": "/import/edges/并发症.csv"
+        },
+        {
+            "label_name": "忌吃",
+            "data_path": "/import/edges/忌吃.csv"
+        },
+        {
+            "label_name": "所属科室",
+            "data_path": "/import/edges/所属科室.csv"
+        },
+        {
+            "label_name": "推荐食谱",
+            "data_path": "/import/edges/推荐食谱.csv"
+        },
+        {
+            "label_name": "治疗方法",
+            "data_path": "/import/edges/治疗方法.csv"
+        },
+        {
+            "label_name": "生产药品",
+            "data_path": "/import/edges/生产药品.csv"
+        },
+        {
+            "label_name": "表现症状",
+            "data_path": "/import/edges/表现症状.csv"
+        },
+        {
+            "label_name": "诊断检查",
+            "data_path": "/import/edges/诊断检查.csv"
+        }
+    ]
+}
